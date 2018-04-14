@@ -1,0 +1,60 @@
+@font-face{
+ font-family:'digital-clock-font';
+ src: url('digital-7/digital-7.ttf') format("truetype");
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+	font-size: 80%;
+	font-family: roboto;
+	color: white;
+	height: 90%;
+    background-color: #2F80ED;
+}
+
+.headerBanner {
+	margin: 0.7% 0;
+	font-size: 130%;
+	line-height: 1.8em;
+    text-align: center;
+}
+.headerBanner p:nth-child(2) {
+	font-weight: bolder;
+}
+
+.headerBanner h3 {
+	font-size: 200%;
+	letter-spacing: 0.4em;
+	font-family:'digital-clock-font';
+}
+
+.containerHeading {
+	font-size: 550%;
+	line-height: 1.3em;
+	padding: 10% 0 10% 5%;
+	position: absolute;
+	z-index: 1;
+}
+
+button {
+	color: white;
+	font-size: 30%;
+	border: none;
+	border-radius: 0.2em;
+	background-color: #2F80ED;
+	padding: 5%;
+	margin-bottom: 2%;
+}	
+
+.containerImage img {
+	position: absolute;
+    margin: 0;
+	z-index: 0;
+}
